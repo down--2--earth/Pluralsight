@@ -13,7 +13,14 @@ namespace OdeToFood.Controllers
 
         public ActionResult Search(string name = "french")
         {
-            return Content(Server.HtmlEncode(name));
+            //return Content(Server.HtmlEncode(name));
+            //return RedirectToAction("Index", "Home", new { name = name });
+
+            //return RedirectToRoute("Default", new { controller = "Home", action = "About" });
+
+            //return File(Server.MapPath("~/Content/site.css"), "text/css");
+
+            return Json(new { Message = Server.HtmlEncode(name), Name = "Mahesh" }, JsonRequestBehavior.AllowGet);
         }
 
     }
