@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc4-building", "mvc4-building", "{3626A9C4-EDCA-4C11-BBC0-4B5439B824B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OdeToFood", "OdeToFood", "{0F897FE1-16AB-4F39-B64B-C9B451D699EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood", "mvc4-building\OdeToFood\OdeToFood\OdeToFood.csproj", "{C509AA60-7FD1-4E65-B096-B6BE81C03547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Tests", "mvc4-building\OdeToFood\OdeToFood.Tests\OdeToFood.Tests.csproj", "{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C509AA60-7FD1-4E65-B096-B6BE81C03547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C509AA60-7FD1-4E65-B096-B6BE81C03547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C509AA60-7FD1-4E65-B096-B6BE81C03547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C509AA60-7FD1-4E65-B096-B6BE81C03547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F897FE1-16AB-4F39-B64B-C9B451D699EE} = {3626A9C4-EDCA-4C11-BBC0-4B5439B824B6}
+		{C509AA60-7FD1-4E65-B096-B6BE81C03547} = {0F897FE1-16AB-4F39-B64B-C9B451D699EE}
+		{1B5D6E95-DFA3-4F45-B667-5A286ADEFDE9} = {0F897FE1-16AB-4F39-B64B-C9B451D699EE}
+	EndGlobalSection
+EndGlobal
