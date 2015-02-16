@@ -5,6 +5,10 @@
     var firstReview = Model.First();
 }
 
+@section featured {
+    We are showing the latest @Model.Count() reviews
+}
+
 @firstReview.Name
 
 <br />
