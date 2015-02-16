@@ -1,7 +1,9 @@
-﻿@{
+﻿@model IEnumerable<OdeToFood.Models.Restaurant> 
+
+@{
     ViewBag.Title = "Home Page";
 }
-@section featured {
+@*@section featured {
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
@@ -42,4 +44,14 @@
         and price for your applications.
         <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
     </li>
-</ol>
+</ol>*@
+
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.Name</h4>
+        <div>@item.City, @item.Country</div>
+        <hr />
+    </div>
+}
