@@ -74,7 +74,7 @@ We are showing the latest @Model.Count() reviews
 
 @foreach (var item in Model)
 {
-    @:Review
+    @*@:Review
     <div class="review">
         <h4>@item.Name</h4>
         <span>@item.Rating</span>
@@ -84,5 +84,7 @@ We are showing the latest @Model.Count() reviews
             @Html.ActionLink("Edit", "Edit", new {id = item.Id})
         </span>
     </div>
-    @:}
+    @:}*@
+    
+    @Html.Partial("_Review", item)
 }
