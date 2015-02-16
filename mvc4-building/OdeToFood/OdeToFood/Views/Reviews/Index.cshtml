@@ -2,7 +2,13 @@
 
 @{
     ViewBag.Title = "Index";
+    var firstReview = Model.First();
 }
+
+@firstReview.Name
+
+<br />
+<br />
 
 <h2>Latest Reviews</h2>
 
@@ -59,3 +65,16 @@ We are showing the latest @Model.Count() reviews
 }
 
 </table>
+
+<br />
+
+@foreach (var item in Model)
+{
+    @:Review
+    <div class="review">
+        <h4>@item.Name</h4>
+        <span>@item.Rating</span>
+        <p>@item.City, @item.Country</p>
+    </div>
+    @:}
+}
