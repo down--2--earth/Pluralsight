@@ -1,5 +1,17 @@
+mvc4-building - Building Applications with ASP.NET MVC 4
+http://www.pluralsight.com/courses/mvc4-building
+
 101 LINQ Samples
 https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
 
 LINQPad
 http://www.linqpad.net/
+
+[ChildActionOnly]
+public ActionResult BestReview();
+
+Loading Related Entities
+https://msdn.microsoft.com/en-us/data/jj574232.aspx
+virtual keywork
+
+=============================================================================
