@@ -200,6 +200,7 @@
     <Compile Include="Models\OdeFoodDb.cs" />
     <Compile Include="Models\Restaurant.cs" />
     <Compile Include="Models\RestaurantReview.cs" />
+    <Compile Include="Models\RestaurantsListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

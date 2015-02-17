@@ -11,7 +11,7 @@ namespace OdeToFood.Controllers
     {
         OdeFoodDb _db = new OdeFoodDb();
 
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm = null)
         {
             var controller = RouteData.Values["controller"];
             var action = RouteData.Values["action"];
@@ -24,7 +24,40 @@ namespace OdeToFood.Controllers
             ViewBag.Message = message;
 
 
-            var model = _db.Restaurants.ToList();
+            //var model = _db.Restaurants.ToList();
+
+            //var model = from r in _db.Restaurants
+            //            orderby r.Reviews.Count descending
+            //            select r;
+
+            //var model = from r in _db.Restaurants
+            //            orderby r.Reviews.Average(rw => rw.Rating) descending
+            //            select r;
+
+            var model = from r in _db.Restaurants
+                        where searchTerm == null || r.Name.StartsWith(searchTerm)
+                        orderby r.Reviews.Average(rw => rw.Rating) descending
+                        select new RestaurantsListViewModel
+                        {
+                            Id = r.Id,
+                            Name = r.Name,
+                            City = r.City,
+                            Country = r.Country,
+                            CountOfReviews = r.Reviews.Count()
+                        };
+
+            model = _db.Restaurants
+                .Where(r => searchTerm == null || r.Name.StartsWith(searchTerm))
+                .OrderByDescending(r => r.Reviews.Average(rw => rw.Rating))
+                .Take(10)
+                .Select(r => new RestaurantsListViewModel
+                        {
+                            Id = r.Id,
+                            Name = r.Name,
+                            City = r.City,
+                            Country = r.Country,
+                            CountOfReviews = r.Reviews.Count()
+                        });
 
             return View(model);
         }
