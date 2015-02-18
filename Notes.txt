@@ -14,4 +14,7 @@ Loading Related Entities
 https://msdn.microsoft.com/en-us/data/jj574232.aspx
 virtual keywork
 
+6 Ways To Avoid Mass Assignment in ASP.NET MVC
+Overposting
+http://odetocode.com/blogs/scott/archive/2012/03/11/complete-guide-to-mass-assignment-in-asp-net-mvc.aspx
 =============================================================================
