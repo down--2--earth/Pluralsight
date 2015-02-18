@@ -17,4 +17,13 @@ virtual keywork
 6 Ways To Avoid Mass Assignment in ASP.NET MVC
 Overposting
 http://odetocode.com/blogs/scott/archive/2012/03/11/complete-guide-to-mass-assignment-in-asp-net-mvc.aspx
+
+Validation Annotations
+        [Display(Name="User Name")]
+        [DisplayFormat(NullDisplayText="anonymous")]
+        [Range(1, 10)]
+        [Required]
+
+		ValidationAttribute
+		IValidatableObject
 =============================================================================
