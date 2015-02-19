@@ -41,7 +41,14 @@ using System.Linq;
                     Reviews = new List<RestaurantReview> {
                     new RestaurantReview { Rating = 5, Body = "Body5", ReviewerName = "Tom_" }
                 }
-                });
+                }
+                );
+
+            for (int x = 0; x < 1000; x++)
+            {
+                context.Restaurants.AddOrUpdate(r => r.Name,
+                    new Restaurant { Name = "R_" + x.ToString(), City = "C_" + x.ToString(), Country = "SL" });
+            }
 
         }
     }
