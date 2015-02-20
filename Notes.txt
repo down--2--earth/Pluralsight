@@ -31,4 +31,6 @@ Database Migrations
 Enable-Migrations -ContextTypeName OdeFoodDb
 
 PagedList.Mvc   Nuget Package
+
+[OutputCache(Duration=5)]
 =============================================================================
