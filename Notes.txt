@@ -43,3 +43,5 @@ http://www.pluralsight.com/courses/mvc4
 Web Optimization with ASP.NET MVC
 
 Install-Package Microsoft.AspNet.WebApi.SelfHost
+
+Controller method overloading is supported by Web API
