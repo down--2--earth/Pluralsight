@@ -33,4 +33,13 @@ Enable-Migrations -ContextTypeName OdeFoodDb
 PagedList.Mvc   Nuget Package
 
 [OutputCache(Duration=5)]
+
+ @Html.Action("TestAction", "Home")
 =============================================================================
+
+mvc4 - ASP.NET MVC 4 Fundamentals
+http://www.pluralsight.com/courses/mvc4
+
+Web Optimization with ASP.NET MVC
+
+Install-Package Microsoft.AspNet.WebApi.SelfHost

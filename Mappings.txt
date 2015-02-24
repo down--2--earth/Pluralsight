@@ -1,2 +1,5 @@
 mvc4-building - Building Applications with ASP.NET MVC 4
 http://www.pluralsight.com/courses/mvc4-building
+
+mvc4 - ASP.NET MVC 4 Fundamentals
+http://www.pluralsight.com/courses/mvc4
