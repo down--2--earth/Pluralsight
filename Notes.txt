@@ -35,6 +35,9 @@ PagedList.Mvc   Nuget Package
 [OutputCache(Duration=5)]
 
  @Html.Action("TestAction", "Home")
+
+ Layout = null;
+ Layout = "~/Views/Home/Mahesh.cshtml"
 =============================================================================
 
 mvc4 - ASP.NET MVC 4 Fundamentals
