@@ -48,3 +48,14 @@ Web Optimization with ASP.NET MVC
 Install-Package Microsoft.AspNet.WebApi.SelfHost
 
 Controller method overloading is supported by Web API
+
+Open source dependency injector for .NET 
+StructureMap
+Ninject 
+
+Entity Framework
+db.Configuration.ProxyCreationEnabled
+Change Tracking and Lazy Loading
+
+Handlebars.js
+Install-Package Handlebars.js

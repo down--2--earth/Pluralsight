@@ -17,6 +17,7 @@ namespace Videos.Controllers
             db = new VideoDb();
             db.Configuration.ProxyCreationEnabled = false;
         }
+
         // GET api/videoapi
         public IEnumerable<Video> GetAllVideos()
         {
@@ -25,9 +26,15 @@ namespace Videos.Controllers
         }
 
         // GET api/videoapi/5
-        public string Get(int id)
+        public Video Get(int id)
         {
-            return "value";
+            var video = db.Videos.Find(id);
+            if (video == null)
+            {
+                //Request.CreateErrorResponse(HttpStatusCode.NotFound);
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+            return video;
         }
 
         // POST api/videoapi
