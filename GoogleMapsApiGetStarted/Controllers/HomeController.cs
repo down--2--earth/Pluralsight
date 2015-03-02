@@ -13,6 +13,17 @@ namespace GoogleMapsApiGetStarted.Controllers
             return View();
         }
 
+        public ActionResult Foo()
+        {
+
+            return File(Server.MapPath("~/Views/Goe.Json"), "text/json");
+        }
+
+        public ActionResult GeoJSON()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
