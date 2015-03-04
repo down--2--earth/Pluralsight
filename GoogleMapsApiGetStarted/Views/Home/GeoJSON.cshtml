@@ -29,6 +29,13 @@
 
             // Load a GeoJSON from the same server as our demo.
             map.data.loadGeoJson('http://localhost:61099/Home/foo');
+
+
+            // Set mouseover event for each feature.
+            map.data.addListener('click', function (event) {
+                alert(event.feature.getProperty('letter'));
+            });
+
         }
 
         google.maps.event.addDomListener(window, 'load', initialize);
