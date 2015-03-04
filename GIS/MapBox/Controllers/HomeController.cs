@@ -13,6 +13,17 @@ namespace MapBox.Controllers
             return View();
         }
 
+        public ActionResult GeoJSON()
+        {
+            return File(Server.MapPath("~/Views/Goe.Json"), "text/json");
+        }
+
+        public ActionResult MapBox()
+        {
+            return View();
+        }
+
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
