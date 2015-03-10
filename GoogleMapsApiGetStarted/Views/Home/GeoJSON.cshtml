@@ -23,13 +23,14 @@
         function initialize() {
             // Create a simple map.
             map = new google.maps.Map(document.getElementById('map-canvas'), {
-                zoom: 4,
+                zoom: 0,
                 center: { lat: -28, lng: 137.883 }
             });
 
             // Load a GeoJSON from the same server as our demo.
             map.data.loadGeoJson('http://localhost:61099/Home/foo');
 
+            map.data.loadGeoJson('http://localhost:61099/Home/foo1');
 
             // Set mouseover event for each feature.
             map.data.addListener('click', function (event) {

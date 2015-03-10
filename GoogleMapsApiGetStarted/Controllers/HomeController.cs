@@ -19,6 +19,12 @@ namespace GoogleMapsApiGetStarted.Controllers
             return File(Server.MapPath("~/Views/Goe.Json"), "text/json");
         }
 
+        public ActionResult Foo1()
+        {
+
+            return File(Server.MapPath("~/Views/Goe1.Json"), "text/json");
+        }
+
         public ActionResult GeoJSON()
         {
             return View();

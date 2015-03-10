@@ -54,16 +54,18 @@
                 success: function (geojson) {
                     // On success add fetched data to the map.
                     L.mapbox.featureLayer(geojson).addTo(map);
+
+                    L.on('click', function (e) {
+                        //window.open(e.layer.feature.properties.url);
+                        alert('AAAA');
+                    });
+
                 }
+
             });
         }
 
         $(load);
-
-        $('#map').on('click', function () {
-            alert('Hello from Toronto!');
-        });
-
     </script>
 
 </body>
