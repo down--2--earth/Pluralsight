@@ -25,6 +25,13 @@ namespace Videos.Controllers
             return videos;
         }
 
+        // GET api/videoapi
+        public IEnumerable<Video> GetAllVideo(int x)
+        {
+            var videos = db.Videos;
+            return videos;
+        }
+
         // GET api/videoapi/5
         public Video Get(int id)
         {
