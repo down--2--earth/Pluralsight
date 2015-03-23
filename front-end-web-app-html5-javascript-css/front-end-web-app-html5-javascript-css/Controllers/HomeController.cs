@@ -1,4 +1,5 @@
-﻿using System;
+﻿using front_end_web_app_html5_javascript_css.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -25,6 +26,13 @@ namespace front_end_web_app_html5_javascript_css.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Echo(string searchPhrase = "Mahesh")
+        {
+            var echoModel = new EchoModel();
+            echoModel.EchoName = searchPhrase;
+            return View(echoModel);
         }
     }
 }
