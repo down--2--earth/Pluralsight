@@ -3,3 +3,6 @@ http://www.pluralsight.com/courses/mvc4-building
 
 mvc4 - ASP.NET MVC 4 Fundamentals
 http://www.pluralsight.com/courses/mvc4
+
+Front-End Web Development Quick Start With HTML5, CSS, and JavaScript
+http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css

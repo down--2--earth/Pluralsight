@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsApiGetStarted", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBox", "GIS\MapBox\MapBox.csproj", "{0676B500-9CAA-49F3-8FE2-B8FBCF545468}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "front-end-web-app-html5-javascript-css", "front-end-web-app-html5-javascript-css", "{6625F8F7-79A6-4BEE-8191-68260AF869F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "front-end-web-app-html5-javascript-css", "front-end-web-app-html5-javascript-css\front-end-web-app-html5-javascript-css\front-end-web-app-html5-javascript-css.csproj", "{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{0676B500-9CAA-49F3-8FE2-B8FBCF545468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0676B500-9CAA-49F3-8FE2-B8FBCF545468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0676B500-9CAA-49F3-8FE2-B8FBCF545468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +92,6 @@ Global
 		{552EF5E8-3848-4EF1-B97C-AEA890478ACA} = {EEB9773B-40EB-40F8-9E22-4988A710A92A}
 		{EB480F97-6399-4FCA-84C1-84E408742F66} = {B4F73EDC-A523-48F7-97E3-EB5B88F242A1}
 		{0676B500-9CAA-49F3-8FE2-B8FBCF545468} = {B4F73EDC-A523-48F7-97E3-EB5B88F242A1}
+		{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC} = {6625F8F7-79A6-4BEE-8191-68260AF869F9}
 	EndGlobalSection
 EndGlobal
