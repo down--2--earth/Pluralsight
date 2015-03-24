@@ -23,6 +23,9 @@ namespace front_end_web_app_html5_javascript_css
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/mahesh").Include(
+            "~/Scripts/mahesh*"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
