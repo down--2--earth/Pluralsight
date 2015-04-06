@@ -39,6 +39,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "front-end-web-app-html5-jav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "front-end-web-app-html5-javascript-css", "front-end-web-app-html5-javascript-css\front-end-web-app-html5-javascript-css\front-end-web-app-html5-javascript-css.csproj", "{D9A710CA-E0CD-4E65-97EB-372DE3FAFDAC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node-intro", "node-intro", "{D035EEF3-D4ED-4CD4-8600-5B71E5609FE7}"
+	ProjectSection(SolutionItems) = preProject
+		node-intro\server.js = node-intro\server.js
+		node-intro\time-out.js = node-intro\time-out.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PPT", "PPT", "{192CF697-DF54-415D-9D37-B57610DB700B}"
+	ProjectSection(SolutionItems) = preProject
+		PPT\Node-JS.pptx = PPT\Node-JS.pptx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
