@@ -59,3 +59,7 @@ Change Tracking and Lazy Loading
 
 Handlebars.js
 Install-Package Handlebars.js
+
+
+C# Programming Paradigms
+Func and Action
