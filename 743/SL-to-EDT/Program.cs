@@ -16,7 +16,7 @@ namespace SL_to_EDT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new Main2());
         }
     }
 }
