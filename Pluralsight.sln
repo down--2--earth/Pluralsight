@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction.Workflow", "Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBlobCopy.Test", "743\AsyncBlobCopy.Test\AsyncBlobCopy.Test.csproj", "{00D8339A-0F1E-435C-BDD9-50D08C846BD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL-to-EDT", "743\SL-to-EDT\SL-to-EDT.csproj", "{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -178,6 +180,16 @@ Global
 		{00D8339A-0F1E-435C-BDD9-50D08C846BD9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{00D8339A-0F1E-435C-BDD9-50D08C846BD9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{00D8339A-0F1E-435C-BDD9-50D08C846BD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,5 +209,6 @@ Global
 		{5E9C6BCD-C1F4-4958-B19D-006C3AB87337} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 		{1AD91F50-D1AB-427B-AB9E-33303BA65A7F} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 		{00D8339A-0F1E-435C-BDD9-50D08C846BD9} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
+		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 	EndGlobalSection
 EndGlobal
