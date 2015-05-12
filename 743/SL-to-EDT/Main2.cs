@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SL_to_EDT
 {
-    public partial class Main : Form
+    public partial class Main2 : Form
     {
-        public Main()
+        public Main2()
         {
             InitializeComponent();
 

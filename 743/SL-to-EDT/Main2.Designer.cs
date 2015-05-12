@@ -1,6 +1,6 @@
 ﻿namespace SL_to_EDT
 {
-    partial class Main
+    partial class Main2
     {
         /// <summary>
         /// Required designer variable.
