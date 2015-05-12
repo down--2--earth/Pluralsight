@@ -16,12 +16,14 @@ namespace SL_to_EDT
         {
             InitializeComponent();
 
-            textBox.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToShortTimeString();
+            textBoxEasternTime.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToShortTimeString();
+            textBoxEasternDateTime.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToLongDateString();
         }
 
         private void dateTimePicker_ValueChanged(object sender, EventArgs e)
         {
-            textBox.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToShortTimeString();
+            textBoxEasternTime.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToShortTimeString();
+            textBoxEasternDateTime.Text = dateTimePicker.Value.Subtract(new TimeSpan(9, 30, 0)).ToLongDateString();
         }
     }
 }
