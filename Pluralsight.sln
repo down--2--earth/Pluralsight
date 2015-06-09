@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc4-building", "mvc4-building", "{3626A9C4-EDCA-4C11-BBC0-4B5439B824B6}"
 EndProject
@@ -59,6 +59,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBlobCopy.Test", "743\AsyncBlobCopy.Test\AsyncBlobCopy.Test.csproj", "{00D8339A-0F1E-435C-BDD9-50D08C846BD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL-to-EDT", "743\SL-to-EDT\SL-to-EDT.csproj", "{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateLessonPlan", "743\GenerateLessonPlan\GenerateLessonPlan.csproj", "{D6DC276A-3008-4CF3-892A-4421CEE409F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -190,6 +192,16 @@ Global
 		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,5 +222,6 @@ Global
 		{1AD91F50-D1AB-427B-AB9E-33303BA65A7F} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 		{00D8339A-0F1E-435C-BDD9-50D08C846BD9} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
+		{D6DC276A-3008-4CF3-892A-4421CEE409F7} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 	EndGlobalSection
 EndGlobal
