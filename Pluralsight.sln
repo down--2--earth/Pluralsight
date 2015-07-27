@@ -66,6 +66,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessageRouting", "MessageRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "WF\MessageRouting\Service\Service.csproj", "{EEE66253-F034-4CA1-A301-FCB52DAB2D78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContracts", "WF\MessageRouting\DataContracts\DataContracts.csproj", "{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -206,6 +208,16 @@ Global
 		{EEE66253-F034-4CA1-A301-FCB52DAB2D78}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EEE66253-F034-4CA1-A301-FCB52DAB2D78}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EEE66253-F034-4CA1-A301-FCB52DAB2D78}.Release|x86.ActiveCfg = Release|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,5 +240,6 @@ Global
 		{5244BE6D-39E2-4F63-8C4F-C1A7F2625A8A} = {B81E35DB-F95A-45B3-8EEE-A0484030E753}
 		{902F0B77-FC44-4880-9141-428276683186} = {A5DD2061-D784-4640-8ADD-CFE763378A4A}
 		{EEE66253-F034-4CA1-A301-FCB52DAB2D78} = {902F0B77-FC44-4880-9141-428276683186}
+		{E54E5C6C-D59E-46A6-9A5C-659BC8EBE720} = {902F0B77-FC44-4880-9141-428276683186}
 	EndGlobalSection
 EndGlobal
