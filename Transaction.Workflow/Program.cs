@@ -28,7 +28,6 @@ namespace Transaction.Workflow
 
         public static string Task1()
         {
-            /
 
             return "AAAAAA";
         }

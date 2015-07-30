@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageRouter", "MessageRouter\MessageRouter\MessageRouter.csproj", "{24CB8F12-E3B0-4C18-A5AE-FF3E03EB19C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageRouter.Test", "MessageRouter\MessageRouter.Test\MessageRouter.Test.csproj", "{41D3C942-1CAE-4400-9329-7BC1CCF0ABF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24CB8F12-E3B0-4C18-A5AE-FF3E03EB19C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CB8F12-E3B0-4C18-A5AE-FF3E03EB19C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CB8F12-E3B0-4C18-A5AE-FF3E03EB19C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CB8F12-E3B0-4C18-A5AE-FF3E03EB19C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D3C942-1CAE-4400-9329-7BC1CCF0ABF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D3C942-1CAE-4400-9329-7BC1CCF0ABF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D3C942-1CAE-4400-9329-7BC1CCF0ABF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D3C942-1CAE-4400-9329-7BC1CCF0ABF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
